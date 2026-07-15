@@ -59,8 +59,12 @@ app.get("/", (req, res) => {
     res.send('This is backend class')
 })
 
-app.get("/worldcup", (req, res) => {
+app.get("/worldcups", (req, res) => {
     res.send(worldCup)
+})
+
+app.get("/hurray", (req, res) => {
+    res.send("I built my first api")
 })
 
 
